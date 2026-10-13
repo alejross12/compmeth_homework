@@ -6,19 +6,19 @@ readme = "README.md"
 authors = [
     { name = "alejross12", email = "alejandra.ross81@gc.cuny.edu" }
 ]
-requires-python = ">=3.7"
+requires-python = ">=3.14"
 dependencies = [
     "argparse>=1.4.0",
-    "astropy>=4.3.1",
-    "matplotlib>=3.5.3",
-    "numpy>=1.21.6",
-    "pandas>=1.1.5",
-    "scipy>=1.7.3",
+    "astropy>=8.0.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scipy>=1.18.1",
 ]
 
 [project.scripts]
 homework = "homework:main"
 
 [build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
+requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
